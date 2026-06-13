@@ -30,7 +30,7 @@ jobs:
           pip install -r requirements.txt || true
           
       - name: Build APK
-        run: yes | flet build apk --project flet_app
+        run: flet build apk --project flet_app --yes
         
       - name: Upload APK
         uses: actions/upload-artifact@v4
