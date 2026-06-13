@@ -1,0 +1,4 @@
+sys.executable: C:\Users\Sanjeev\OneDrive\Antigravity\withdrawal_bot\withdrawal_bot\dist\test_env.exe
+_PYI_APPLICATION_HOME_DIR=C:\Users\Sanjeev\AppData\Local\Temp\_MEI183522
+_PYI_ARCHIVE_FILE=C:\Users\Sanjeev\OneDrive\Antigravity\withdrawal_bot\withdrawal_bot\dist\test_env.exe
+_PYI_PARENT_PROCESS_LEVEL=1

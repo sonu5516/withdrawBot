@@ -1,0 +1,38 @@
+<LoginScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: 50
+        spacing: 20
+        Label:
+            text: 'ACCOUNT MANAGER'
+            font_size: '24sp'
+        TextInput:
+            id: phone_input
+            hint_text: 'Phone Number'
+            multiline: False
+        TextInput:
+            id: pass_input
+            hint_text: 'Password'
+            password: True
+            multiline: False
+        Button:
+            text: 'LOGIN'
+            on_press: app.do_login()
+
+<DashboardScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            id: limit_label
+            text: 'Count: -- | Limit: ₹ --'
+            size_hint_y: 0.1
+        Label:
+            text: 'Live Feed (Pending UI)'
+        Label:
+            id: log_label
+            text: 'Ready.'
+            size_hint_y: 0.1
+        Label:
+            id: status_label
+            text: 'Disconnected'
+            size_hint_y: 0.1
